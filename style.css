@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    background: #367fb3;
+}
+
+
+.IMC{
+    margin: 100px auto 100px auto;
+    padding: 20px;
+    text-align: center;
+    
+    color:rgb(26, 11, 92);
+    background-color: rgb(233, 231, 241);
+    border-radius: 25px;
+}
+.vetor {
+    margin: 100px auto 100px auto;
+    padding: 20px;
+    text-align: center;
+    
+    color:rgb(26, 11, 92);
+    background-color: rgb(233, 231, 241);
+    border-radius: 25px;
+}
+
+
+.calculo, .uga{
+    margin: 40px;
+    text-align: left;
+}

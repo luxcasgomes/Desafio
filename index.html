@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio</title>
+</head>
+<body>
+    <div class="IMC">
+        <header>
+            <h2>Vamos calcular seu IMC</h2>
+        </header>
+
+            <section class="calculo">                
+                <div class="peso">
+                    <label for="peso">Digite seu peso:</label>
+                    <input type="number" name="peso" id="peso" placeholder="Ex: 64,3">
+                </div>
+                <br>
+                <div class="altura">
+                    <label for="altura">Digite sua altura:</label>
+                    <input type="number" name="altura" id="altura" placeholder="Ex: 1,60">
+                </div>
+                
+                <div>
+                    <p id="res"></p>
+                </div>
+            </section>
+        <footer>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </footer>
+    </div>
+
+    <div class="vetor">
+        <header>
+            <h2>Vamos colocar 5 números em ordem <br> crescente</h2>
+        </header>
+
+        <section class="uga">
+            <label for="num">Insira o 1º número:</label>
+            <input type="number" name="num" id="num1" placeholder="Ex.: 15">
+            <br>
+            <br>
+            
+            <label for="num">Insira o 2º número:</label>
+            <input type="number" name="num" id="num2" placeholder="Ex.: 0">
+            <br>
+            <br>
+            
+            <label for="num">Insira o 3º número:</label>
+            <input type="number" name="num" id="num3" placeholder="Ex.: 7">
+            <br>
+            <br>
+            
+            <label for="num">Insira o 4º número:</label>
+            <input type="number" name="num" id="num4" placeholder="Ex.: 34">
+            <br>
+            <br>
+            
+            <label for="num">Insira o 5º número:</label>
+            <input type="number" name="num" id="num5" placeholder="Ex.: 2">
+            <br>
+            <br>
+
+            <div class="res"></div>
+            <br>
+            <br>
+
+        </section>
+            
+        <footer>
+            <input type="button" value="Ordenar" onclick="contar()">
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
