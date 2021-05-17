@@ -30,15 +30,20 @@ function contar(){
     var n5 = Number(document.querySelector("input#num5").value);
     var res = document.querySelector("div.res")
 
+    res.innerHTML= " "
+
     var num=[n1,n2,n3,n4,n5];
 
-    for(var c = 0; c<5;c++){
-        if(num[c]>num[c+1]){
-            var troca = num[c]
-            num [c] = num[c+1]
-            num[c+1] = troca
-        }
+    for(var i = 0; i<=num.length-1 ; i++){
+        for(var j = 0; j<=num.length-1 ; j++){
+            if(num[i]<num[j]){
+                var troca = num[i]
+                num[i] = num[j]
+                num[j] = troca
+            }
+        }       
     }
+
     for(var c = 0; c<5;c++){
         res.innerHTML+= num[c]+", "
     }
