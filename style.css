@@ -2,6 +2,8 @@ body{
     display: grid;
     grid-template-columns: auto;
     background: #367fb3;
+    margin: 0;
+    padding:0;
 }
 
 
@@ -29,3 +31,51 @@ body{
     margin: 40px;
     text-align: left;
 }
+
+h2, h3{
+    text-align: center;
+}
+
+#tela-escura{
+    width: 100%;
+    height: 100vh;
+    opacity: 0,99;
+    color: whitesmoke;
+    padding-top: 80px;
+    
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+.container{
+    margin: 50px auto 0;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: dimgrey;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#jogo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.casa{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(233, 231, 241);
+}
+ 
+
+
+
