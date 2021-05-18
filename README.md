@@ -4,4 +4,4 @@ Esta é a resolução de um desafio de lógica de programação, é uma página 
 
 
 ## Execução:
-Para executar basta clonar o repositório e abrir o index.HTML no browser.
+Para executar basta clonar o repositório e abrir o index.html no browser.
